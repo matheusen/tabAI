@@ -1,0 +1,7 @@
+dataset/
+.env
+demucs_jobs/*
+processed_data/*
+f0_onsets_out/*
+pipeline_final/*
+fretting_transformer/*

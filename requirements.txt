@@ -1,0 +1,40 @@
+prometheus_client
+confluent-kafka
+networkx<3.0
+# Para CUDA: instale torch, torchaudio e torchvision manualmente conforme https://pytorch.org/get-started/locally/
+# Exemplo:
+# pip install torch==2.5.1+cu121 torchaudio==2.5.1+cu121 torchvision==0.20.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+
+mido==1.3.3
+pretty_midi==0.2.11
+PyYAML==6.0.2
+pytest==8.4.2
+fastapi==0.119.1
+uvicorn[standard]==0.38.0
+python-multipart==0.0.20
+yt-dlp==2025.10.22
+pydantic==2.11.2
+pydantic-settings==2.11.0
+browser-cookie3>=0.19
+requests==2.32.3
+# Torch stack: instale conforme seu ambiente (CPU ou GPU). Para GPU, use requirements-gpu.txt.
+torchcrepe==0.0.24
+librosa==0.11.0
+demucs==4.0.1
+soundfile==0.13.1
+transformers==4.57.1
+datasets==2.19.0
+tokenizers==0.22.1
+sentencepiece==0.2.1
+numpy==1.26.4
+pandas==2.2.3
+matplotlib>=3.7
+PyGuitarPro>=0.9
+onnxruntime>=1.17
+basic-pitch==0.4.0
+accelerate==0.20.3
+openai==1.54.0
+python-dotenv==1.0.0
+webdriver-manager==4.0.1
+
+
